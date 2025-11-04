@@ -259,7 +259,7 @@ span{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 4.5rem;
 }
 
 .portfolio-box{
@@ -333,7 +333,7 @@ span{
 .contact h2{
     margin-bottom: 3rem;
 }
-
+/* 
 .contact form{
     max-width: 70rem;
     margin: 1rem auto;
@@ -369,7 +369,7 @@ span{
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
-}
+} */
 
 .footer{
     background: var(--second-bg-color);
@@ -401,6 +401,25 @@ span{
 .footer .footer-iconTop a i{
     font-size: 2.4rem;
     color: var(--second-bg-color);
+}
+
+.contactSource {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contactSource:hover{
+    color: var(--main-color);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 10rem;
 }
 
 
