@@ -106,7 +106,7 @@ span{
     height: 300px;
     width: 300px;
     object-fit: cover;
-    border-radius: 20rem;
+    border-radius: 5rem 15rem;
     animation: floatImage 4s ease-in-out infinite;
 }
 
